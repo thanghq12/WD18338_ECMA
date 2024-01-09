@@ -80,4 +80,8 @@ console.log(arrTeacherPoly);
 function restTest(...args) {
     console.log(args);
 }
+// xây dựng 1 hàm  tính chu vi và  diện tích của nhiều hình chữ nhật 
+// với mỗi đối số là 1 object 
+//{"chieudai":7,"chieurong":8}  dfff
+//{"chieudai":7,"chieurong":8}
 restTest(1,"rr",{id:1},4,5,6,7);
