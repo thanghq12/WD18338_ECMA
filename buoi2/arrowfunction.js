@@ -14,4 +14,12 @@ const tinhDienTich = (...hcn) => {
         console.log(`diện tích hcn là ${cr*cd}`);
     }
 }
+tinhDienTich({cr:5,cd:6},{cr:7,cd:8});//eeeee
 tinhDienTich({cr:5,cd:6},{cr:7,cd:8});
+//33333 ffffffff
+// sử dụng arrow function xây dựng 1 hàm tính lương của nhiều giảng viên
+//biết {ten:"nguyenvan","luongF","soGioDay"}
+// nếu soGioDay >= 440 h 
+//luong tính bằng (440 * luongF) + (soGioday - 440)/2 * luongF leuleu
+// nếu soGioDay <440h
+//luong itnhs bằng soGioDay * luongF
