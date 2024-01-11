@@ -46,9 +46,15 @@ const user = [{id:1,name:"Huy"},{id:2,name:"Hoàng"}];
 // mảng mới là ["huy","hoàng"]
 //bài 4 
 const students = [{id:1,name:"A",diemtoan:7,diemly:8,diemhoa:9}
-            ,   {id:1,name:"B",diemtoan:7,diemly:8,diemhoa:9}]
+            ,{id:1,name:"B",diemtoan:7,diemly:8,diemhoa:9}]
+const newStudent =students.map((student)=>{
+    return {
+        id :student.id,
+        name :student.name,
+        diemTB: (student.diemtoan + student.diemly + student.diemhoa)/3
+    }
+}) 
 // tạo ra 1 mảng danh sách chỉ có id ,name,diemtb = (diemtoan+diemly+hoa)/3           
-console.log(1233);
-console.log(1233);
-console.log(1233);
+console.log(newStudent);
+
 
