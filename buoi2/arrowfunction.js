@@ -44,5 +44,11 @@ const stringNumber = ["1","2","3","4","5"];
 const user = [{id:1,name:"Huy"},{id:2,name:"Hoàng"}];
 // tạo 1 mảng mới chỉ chứa tên trong danh sách trên
 // mảng mới là ["huy","hoàng"]
+//bài 4 
+const students = [{id:1,name:"A",diemtoan:7,diemly:8,diemhoa:9}
+            ,   {id:1,name:"B",diemtoan:7,diemly:8,diemhoa:9}]
+// tạo ra 1 mảng danh sách chỉ có id ,name,diemtb = (diemtoan+diemly+hoa)/3           
+console.log(1233);
+console.log(1233);
 console.log(1233);
 
