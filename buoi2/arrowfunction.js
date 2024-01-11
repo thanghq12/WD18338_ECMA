@@ -35,9 +35,14 @@ console.log(add3)
 const numbers = [1,2,3,4,5,6];
 const newNumbers = numbers.map((num) => num * 2);
 console.log(newNumbers);
-
-const h =  [{cr:5,cd:6},{cr:7,cd:8}]
-const newH = h.map(({cr,cd})=> cr * cd);
-console.log(newH);
 // tạo 1 mảng mới để lưu diện tích của các hình chữ nhật trên
 console.log(1233);
+// bài 2 
+const stringNumber = ["1","2","3","4","5"];
+//chuyển đổi mảng chuỗi số thành 1  mảng số nguyên mới 
+//bài 3
+const user = [{id:1,name:"Huy"},{id:2,name:"Hoàng"}];
+// tạo 1 mảng mới chỉ chứa tên trong danh sách trên
+// mảng mới là ["huy","hoàng"]
+console.log(1233);
+
