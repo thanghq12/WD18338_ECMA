@@ -35,3 +35,7 @@ console.log(add3)
 const numbers = [1,2,3,4,5,6];
 const newNumbers = numbers.map((num) => num * 2);
 console.log(newNumbers);
+
+// [{cr:5,cd:6},{cr:7,cd:8}]
+// tạo 1 mảng mới để lưu diện tích của các hình chữ nhật trên
+console.log(1233);
