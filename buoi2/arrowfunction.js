@@ -23,3 +23,15 @@ tinhDienTich({cr:5,cd:6},{cr:7,cd:8});
 //luong tính bằng (440 * luongF) + (soGioday - 440)/2 * luongF leuleu
 // nếu soGioDay <440h
 //luong itnhs bằng soGioDay * luongF
+
+// viết hàm xong chạy đc luôn 
+const add3 = ((b,c) => {
+    return b + c
+})(4,5);
+console.log(add3)
+//giới thiệu số hàm có sẵn sử dụng arrow function 
+// hàm map() được sử dunjg để tạo ra 1 mảng mới bằng cách ánh xạ
+// qua tất cả các phần tử của 1 mảng và áp dụng cho 1 hàm cho từng phần từ đó
+const numbers = [1,2,3,4,5,6];
+const newNumbers = numbers.map((num) => num * 2);
+console.log(newNumbers);
