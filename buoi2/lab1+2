@@ -27,4 +27,24 @@ const orders = [
 // lọc ra những đơn hàng có giá trị đơn hàng (Tổng của tất cả sản phẩm ) > 100
 //tạo ra 1 mảng đối tượng mới chỉ với oderID,customerName và tổng giá trị đơn hàng 
 // tính tổng số lượng của tất cả các sản phẩm trong tất cả đơn hàng 
-console.log(1223123);
+// giả sử muốn thêm chức năng giảm giá cho đơn hàng. Mỗi sản phẩm có thể được giảm giá
+// một số phần trăm nào đó . Hãy thêm thuộc tính discount vào mỗi sản phẩm
+// sau đó : 
+// Sử dụng map để tính giá bán cuối cùng (sau khi được giảm giá) của mỗi sản phẩm 
+// trong đơn hàng 
+// sử dụng reduce để tính tổng giá trị giảm giá của tất cả sản phẩm trong tất cả đơn hàng
+console.log(12231229292929292923);
+console.log(12231232132132132);
+console.log(12231232132132132);
+console.log("ẹejejejejejeejeejeje");
+console.log(12231232132132132);
+console.log("ẹejejejejejeejeejeje");console.log(12231232132132132);
+console.log("ẹejejejejejeejeejeje");
+
+
+console.log("ẹejejejejejeejeejeje");
+console.log("ẹejejejejejeejeejeje");
+console.log("ẹejejejejejeejeejeje");
+
+console.log("ẹejejejejejeejeejeje");
+
