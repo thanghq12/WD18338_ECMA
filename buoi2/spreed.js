@@ -4,6 +4,8 @@ let days2 = ["thusday","friday","saturday","sunday"];
 // let days = days1.concat(days2);
 // console.log(days);
 //es6 
+let cauthu = ["bùi tiến dũng","quan hải","văn hậu","văn toàn"];
+let [thumon,...dscauthu] = cauthu;
 let days = [...days1,...days2];
 console.log(days);
 //... spreed array là 1 tính năng cho phép rải rác các phần tử của 

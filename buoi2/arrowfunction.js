@@ -55,6 +55,20 @@ const newStudent =students.map((student)=>{
     }
 }) 
 // tạo ra 1 mảng danh sách chỉ có id ,name,diemtb = (diemtoan+diemly+hoa)/3           
-console.log(newStudent);
+// console.log(newStudent);
 
-
+// filter dùng để tạo ra 1 mảng mới theo điều kiện 
+let numbers1 = [1,2,3,4,5,6];
+// tạo ra 1 mảng số chẵn 
+let evenNumbers = numbers1.filter((num)=> num % 2 === 0)
+console.log(evenNumbers);
+//reduce() hàm reduce được sử dụng để tính tổng hoặc thực hiện
+// một phép tính tổng quát trên một mảng 
+let numbers2 = [1,2,3,4,5,6];
+let sum = numbers2.reduce((total,num) => total + num );
+// console.log(sum);
+let students2 = [{id:5,name:"huy",tuoi:6},{id:6,name:"quang",tuoi:7}];
+let sumAge = students2.reduce((total,student)=> total + student.tuoi,0)
+console.log(sumAge);
+// tính tổng tuổi của list students2 
+// hiển thị nhưng sinh viên có tuổi lớn hơn 10
