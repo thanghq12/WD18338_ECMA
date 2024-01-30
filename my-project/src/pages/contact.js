@@ -1,6 +1,6 @@
 import FooterComponent from "../components/footer"
 import HeaderComponent from "../components/header"
-import { posts,comments } from '../../db.json' assert {type:'json'}
+import { posts,comments } from '../../db.json' 
 const ContactPage = function() {
     return `
         ${HeaderComponent()}
@@ -9,14 +9,19 @@ const ContactPage = function() {
             <tr>
                 <th>id</th>
                 <th>title</th>
+                <th>hành động</th>
             </tr>
             ${posts.map(function (post) {
                return `<tr>
                     <th>${post.id}</th>
                     <th>${post.title}</th>
+                    <th><a href="/detailpost/${post.id}">xem</a></th>
                 </tr>`
             })}
         </table>
+        <h1 class="text-3xl font-bold underline">
+        Hello world!
+      </h1>
         ${FooterComponent()}
     `
 }
