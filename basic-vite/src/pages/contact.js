@@ -22,6 +22,18 @@ const ContactPage = function () {
             .then((data) =>  setPost(data))
            
         },[])
+
+        useEffect(()=> {
+            const btnDeletes = document.querySelectorAll(".btn-delete") 
+            for(let btn of btnDeletes) {
+                btn.addEventListener("click",()=>{
+                    let id = btn.dataset.id  //lấy ra id người dùng kích vào để xóa 
+                    fetch(`http://localhost:3001/posts/${id}`,{
+                        method:"DELETE"
+                    }).then(()=>router.navigate("/contact"))
+                })
+            }
+        })
     // console.log(posts);
     return `
         ${HeaderComponent()}
@@ -36,7 +48,12 @@ const ContactPage = function () {
          return `<tr>
             <td>${post.id}</td>
             <td>${post.title}</td>
-            <td><a href="/detailpost/${post.id}">Xem</a></td>
+            <td>
+                <a href="/detailpost/${post.id}">Xem</a>
+                <a href="/update-post/${post.id}">Update</a>
+                <button data-id="${post.id}" class="btn-delete"> Delete</button>
+            </td>
+
         </tr>`
         })}
     </table>
